@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_open_academy_market_channel,access_open_academy_market_channel,model_open_academy_market_channel,1,0,0,0
+access_open_academy_op_channel,access_open_academy_op_channel,model_open_academy_op_channel,1,0,0,0
+access_open_academy_res_partner_contact,name_open_academy_res_partner_contact,base.model_res_partner,academy_contact,1,0,0,0

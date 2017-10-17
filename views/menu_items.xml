@@ -1,0 +1,51 @@
+<odoo>
+  <data>
+
+    <!-- Top menu item -->
+    <menuitem name="Open Academy" id="menu_open_academy_root"/>
+    <!-- menu categories -->
+    <menuitem name="业务管理" id="menu_open_academy_business"  parent="menu_open_academy_root"
+/>
+    <menuitem name="财务管理" id="menu_open_academy_finance" parent="menu_open_academy_root"
+/>
+    <menuitem name="教务管理" id="menu_open_academy_teaching" parent="menu_open_academy_root"
+/>
+    <menuitem name="中心报表管理" id="menu_open_academy_reports" parent="menu_open_academy_root"
+/>
+    <menuitem name="记录性报表管理" id="menu_reports_2_open_academy" parent="menu_open_academy_root"
+/>
+    <menuitem name="系统管理" id="menu_open_academy_system" parent="menu_open_academy_root"
+/>
+
+    <!-- 二级菜单: 业务 -->
+    <!-- <menuitem name="运营渠道管理" id="menu_open_academy_business_op_channel" parent="menu_open_academy_business" -->
+    <!-- action="act_open_market_view"/> -->
+    <menuitem name="市场渠道管理" id="menu_open_academy_business_market_channel" parent="menu_open_academy_business"
+    action="act_open_market_view"/>
+    <menuitem name="信息录入" id="menu_open_academy_business_students_entry" parent="menu_open_academy_business"
+    action="act_open_contact_view"/>
+    <menuitem name="信息分配" id="menu_open_academy_business_student_assign" parent="menu_open_academy_business"
+    action="act_open_contact_assign_view"/>
+    <menuitem name="信息跟踪记录" id="menu_open_academy_business_tracing" parent="menu_open_academy_business"
+    action="act_open_contact_view"/>    
+    <menuitem name="预约潜在学员" id="menu_open_academy_business_appointment" parent="menu_open_academy_business"
+    action="act_open_contact_view"/>
+    <menuitem name="学员" id="menu_open_academy_business_students" parent="menu_open_academy_business"
+    action="act_open_market_view"/>    
+    <menuitem name="教师排课表" id="menu_open_academy_business_teachers" parent="menu_open_academy_business"
+    action="act_open_market_view"/>    
+    <menuitem name="业务操作平台" id="menu_open_academy_business_ops" parent="menu_open_academy_business"
+    action="act_open_market_view"/>    
+
+    <!-- 二级菜单: 财务 -->
+    <menuitem name="学员签约" id="menu_open_academy_finance_student_sign" parent="menu_open_academy_finance"
+    action="act_open_market_view"/>
+    <menuitem name="待收款" id="menu_open_academy_finance_student_neeeds_pay" parent="menu_open_academy_finance"
+    action="act_open_market_view"/>
+    <menuitem name="待收款" id="menu_open_academy_finance_student_paid" parent="menu_open_academy_finance"
+    action="act_open_market_view"/>
+    <menuitem name="收据打印" id="menu_open_academy_finance_reciept_print" parent="menu_open_academy_finance"
+    action="act_open_market_view"/>
+
+  </data>
+</odoo>

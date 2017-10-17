@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <data>   
+     <!-- view_contact_tree -->
+    <record id="view_contact_tree" model="ir.ui.view">
+        <field name="name">open_academy.contact.tree</field>
+        <field name="model">open_academy.contact</field>
+        <field name="priority" eval="8" />
+        <field name="arch" type="xml">
+            <tree string="Contact">
+                <field name="id" />
+                <field name="name" />
+                <field name="gender" />
+                <field name="birth_date" />
+                <field name="mobile" />
+                <field name="contact_parent_name" />
+                <field name="phone" />
+                <field name="email" />
+                <field name="note1" />
+                <field name="note2" />
+            </tree>
+        </field>
+    </record>
+
+     <!-- view_contact_form -->
+    <record id="view_contact_form" model="ir.ui.view">
+        <field name="name">open_academy.contact.form</field>
+        <field name="model">open_academy.contact</field>
+        <field name="priority" eval="8" />
+        <field name="arch" type="xml">
+            <form string="Contact">
+                <sheet>
+                    <group col="4">
+                        <field name="id" />
+                        <field name="sequence" />
+                        <field name="name" />
+                        <field name="english_name" />
+                        <field name="gender" />
+                        <field name="birth_date" />
+                        <field name="mobile" />
+                        <field name="other_mobile" />
+                        <field name="contact_parent_name" />
+                        <field name="contact_address" />
+                        <field name="school" />
+                        <field name="phone" />
+                        <field name="email" />
+                        <field name="create_date" />
+                        <field name="note1" />
+                        <field name="note2" />
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- actions opening views on models -->
+    <record model="ir.actions.act_window" id="act_open_contact_view">
+      <field name="name">信息录入</field>
+      <field name="res_model">open_academy.contact</field>
+      <field name="type">ir.actions.act_window</field>
+      <field name="view_type">form</field>
+      <field name="view_mode">tree,form</field>
+      <field name="domain">[]</field>
+      <field name="context">{}</field>
+    </record>
+
+
+    <!-- contact tree -->
+    <record model="ir.actions.act_window.view" id="act_open_contact_view_tree">
+        <field name="act_window_id" ref="act_open_contact_view" />
+        <field name="sequence" eval="10" />
+        <field name="view_mode">tree</field>
+        <field name="view_id" ref="view_contact_tree" />
+    </record>
+
+    <record model="ir.actions.act_window.view" id="act_open_contact_view_form">
+        <field name="act_window_id" ref="act_open_contact_view" />
+        <field name="sequence" eval="10" />
+        <field name="view_mode">form</field>
+        <field name="view_id" ref="view_contact_form" />
+    </record>
+
+  </data>
+</odoo>

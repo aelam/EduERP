@@ -1,0 +1,37 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+__init__.py	../__init__.py	1;"	kind:file	line:1
+__init__.py	../controllers/__init__.py	1;"	kind:file	line:1
+__init__.py	../models/__init__.py	1;"	kind:file	line:1
+__manifest__.py	../__manifest__.py	1;"	kind:file	line:1
+_name	../models/models.py	/^    _name = 'open_academy.center'$/;"	kind:variable	line:35
+_name	../models/models.py	/^    _name = 'open_academy.market_channel'$/;"	kind:variable	line:15
+_name	../models/models.py	/^    _name = 'open_academy.op_channel'$/;"	kind:variable	line:6
+_sql_constraints	../models/models.py	/^    _sql_constraints = [$/;"	kind:variable	line:10
+address	../models/models.py	/^    address = fields.Char("地址")$/;"	kind:variable	line:28
+api	../models/models.py	/^from odoo import models, fields, api$/;"	kind:namespace	line:3
+center	../models/models.py	/^class center(models.Model):$/;"	kind:class	line:34
+channel_type	../models/models.py	/^    channel_type = fields.Selection([$/;"	kind:variable	line:18
+controllers	../__init__.py	/^from . import controllers$/;"	kind:namespace	line:3
+controllers	../controllers/__init__.py	/^from . import controllers/;"	kind:namespace	line:3
+controllers.py	../controllers/controllers.py	1;"	kind:file	line:1
+fee	../models/models.py	/^    fee = fields.Float('费用')$/;"	kind:variable	line:29
+fields	../models/models.py	/^from odoo import models, fields, api$/;"	kind:namespace	line:3
+help	../models/models.py	/^        help="运营渠道")$/;"	kind:variable	line:26
+http	../controllers/controllers.py	/^from odoo import http$/;"	kind:namespace	line:2
+info_source	../models/models.py	/^    info_source = fields.Char('信息来源')$/;"	kind:variable	line:27
+is_active	../models/models.py	/^    is_active = fields.Boolean() # 是否激活$/;"	kind:variable	line:30
+market_channel	../models/models.py	/^class market_channel(models.Model):$/;"	kind:class	line:14
+models	../__init__.py	/^from . import models/;"	kind:namespace	line:4
+models	../models/__init__.py	/^from . import models/;"	kind:namespace	line:3
+models	../models/models.py	/^from odoo import models, fields, api$/;"	kind:namespace	line:3
+models.py	../models/models.py	1;"	kind:file	line:1
+name	../models/models.py	/^    name = fields.Char('中心', translate=True, required=True)$/;"	kind:variable	line:36
+name	../models/models.py	/^    name = fields.Char('运营渠道', translate=True, required=True)$/;"	kind:variable	line:8
+note	../models/models.py	/^    note = fields.Text('备注')$/;"	kind:variable	line:31
+op_channel	../models/models.py	/^class op_channel(models.Model):$/;"	kind:class	line:5
+op_channel_id	../models/models.py	/^    op_channel_id = fields.Many2one($/;"	kind:variable	line:23

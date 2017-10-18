@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_edu_institution_hr_edu_institution_hr,edu_institution_hr.edu_institution_hr,model_edu_institution_hr_edu_institution_hr,,1,0,0,0

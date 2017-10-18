@@ -1,0 +1,51 @@
+<odoo>
+  <data>
+
+    <!-- Top menu item -->
+    <menuitem name="Edu Institution" id="menu_edu_institution_root"/>
+    <!-- menu categories -->
+    <menuitem name="业务管理" id="menu_edu_institution_sales"  parent="menu_edu_institution_root"
+/>
+    <menuitem name="财务管理" id="menu_edu_institution_finance" parent="menu_edu_institution_root"
+/>
+    <menuitem name="教务管理" id="menu_edu_institution_teaching" parent="menu_edu_institution_root"
+/>
+    <menuitem name="中心报表管理" id="menu_edu_institution_reports" parent="menu_edu_institution_root"
+/>
+    <menuitem name="记录性报表管理" id="menu_edu_institution_reports2" parent="menu_edu_institution_root"
+/>
+    <menuitem name="系统管理" id="menu_edu_institution_system" parent="menu_edu_institution_root"
+/>
+
+    <!-- 二级菜单: 业务 -->
+    <!-- <menuitem name="运营渠道管理" id="menu_edu_institution_sales_op_channel" parent="menu_edu_institution_sales" -->
+    <!-- action="act_open_market_view"/> -->
+    <menuitem name="市场渠道管理" id="menu_edu_institution_sales_market_channel" parent="menu_edu_institution_sales"
+    action="edu_institution_sales.act_open_market_view"/>
+    <menuitem name="信息录入" id="menu_edu_institution_sales_contact_entry" parent="menu_edu_institution_sales"
+    action="edu_institution_sales.act_open_contact_view"/>
+    <menuitem name="信息分配" id="menu_edu_institution_sales_contact_assign" parent="menu_edu_institution_sales"
+    action="edu_institution_sales.act_open_contact_assign_view"/>
+    <menuitem name="信息跟踪记录" id="menu_edu_institution_sales_tracing" parent="menu_edu_institution_sales"
+    action="edu_institution_sales.act_open_contact_view"/>    
+    <menuitem name="预约潜在学员" id="menu_edu_institution_sales_appointment" parent="menu_edu_institution_sales"
+    action="edu_institution_sales.act_open_contact_view"/>
+    <menuitem name="学员" id="menu_edu_institution_sales_contact" parent="menu_edu_institution_sales"
+    action="edu_institution_sales.act_open_market_view"/>    
+    <menuitem name="教师排课表" id="menu_edu_institution_sales_teacher_schedule" parent="menu_edu_institution_sales"
+    action="edu_institution_sales.act_open_market_view"/>    
+    <menuitem name="业务操作平台" id="menu_edu_institution_sales_ops" parent="menu_edu_institution_sales"
+    action="edu_institution_sales.act_open_market_view"/>    
+
+    <!-- 二级菜单: 财务 -->
+    <menuitem name="学员签约" id="menu_edu_institution_finance_contact_sign" parent="menu_edu_institution_finance"
+    action="edu_institution_sales.act_open_market_view"/>
+    <menuitem name="待收款" id="menu_edu_institution_finance_contact_neeeds_pay" parent="menu_edu_institution_finance"
+    action="edu_institution_sales.act_open_market_view"/>
+    <menuitem name="待收款" id="menu_edu_institution_finance_contact_paid" parent="menu_edu_institution_finance"
+    action="edu_institution_sales.act_open_market_view"/>
+    <menuitem name="收据打印" id="menu_edu_institution_finance_reciept_print" parent="menu_edu_institution_finance"
+    action="edu_institution_sales.act_open_market_view"/>
+
+  </data>
+</odoo>

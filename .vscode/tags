@@ -4,34 +4,110 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-__init__.py	../__init__.py	1;"	kind:file	line:1
-__init__.py	../controllers/__init__.py	1;"	kind:file	line:1
-__init__.py	../models/__init__.py	1;"	kind:file	line:1
-__manifest__.py	../__manifest__.py	1;"	kind:file	line:1
-_name	../models/models.py	/^    _name = 'open_academy.center'$/;"	kind:variable	line:35
-_name	../models/models.py	/^    _name = 'open_academy.market_channel'$/;"	kind:variable	line:15
-_name	../models/models.py	/^    _name = 'open_academy.op_channel'$/;"	kind:variable	line:6
-_sql_constraints	../models/models.py	/^    _sql_constraints = [$/;"	kind:variable	line:10
-address	../models/models.py	/^    address = fields.Char("地址")$/;"	kind:variable	line:28
-api	../models/models.py	/^from odoo import models, fields, api$/;"	kind:namespace	line:3
-center	../models/models.py	/^class center(models.Model):$/;"	kind:class	line:34
-channel_type	../models/models.py	/^    channel_type = fields.Selection([$/;"	kind:variable	line:18
-controllers	../__init__.py	/^from . import controllers$/;"	kind:namespace	line:3
-controllers	../controllers/__init__.py	/^from . import controllers/;"	kind:namespace	line:3
-controllers.py	../controllers/controllers.py	1;"	kind:file	line:1
-fee	../models/models.py	/^    fee = fields.Float('费用')$/;"	kind:variable	line:29
-fields	../models/models.py	/^from odoo import models, fields, api$/;"	kind:namespace	line:3
-help	../models/models.py	/^        help="运营渠道")$/;"	kind:variable	line:26
-http	../controllers/controllers.py	/^from odoo import http$/;"	kind:namespace	line:2
-info_source	../models/models.py	/^    info_source = fields.Char('信息来源')$/;"	kind:variable	line:27
-is_active	../models/models.py	/^    is_active = fields.Boolean() # 是否激活$/;"	kind:variable	line:30
-market_channel	../models/models.py	/^class market_channel(models.Model):$/;"	kind:class	line:14
-models	../__init__.py	/^from . import models/;"	kind:namespace	line:4
-models	../models/__init__.py	/^from . import models/;"	kind:namespace	line:3
-models	../models/models.py	/^from odoo import models, fields, api$/;"	kind:namespace	line:3
-models.py	../models/models.py	1;"	kind:file	line:1
-name	../models/models.py	/^    name = fields.Char('中心', translate=True, required=True)$/;"	kind:variable	line:36
-name	../models/models.py	/^    name = fields.Char('运营渠道', translate=True, required=True)$/;"	kind:variable	line:8
-note	../models/models.py	/^    note = fields.Text('备注')$/;"	kind:variable	line:31
-op_channel	../models/models.py	/^class op_channel(models.Model):$/;"	kind:class	line:5
-op_channel_id	../models/models.py	/^    op_channel_id = fields.Many2one($/;"	kind:variable	line:23
+Contact	../edu_institution_sales/models/contact.py	/^class Contact(models.Model):$/;"	kind:class	line:7
+ValidationError	../edu_institution_sales/models/contact.py	/^from odoo.exceptions import ValidationError$/;"	kind:namespace	line:4
+_	../edu_institution_sales/models/contact.py	/^from odoo import models, fields, api, _$/;"	kind:namespace	line:3
+__init__.py	../edu_institution_erp/__init__.py	1;"	kind:file	line:1
+__init__.py	../edu_institution_erp/controllers/__init__.py	1;"	kind:file	line:1
+__init__.py	../edu_institution_erp/models/__init__.py	1;"	kind:file	line:1
+__init__.py	../edu_institution_finance/__init__.py	1;"	kind:file	line:1
+__init__.py	../edu_institution_finance/controllers/__init__.py	1;"	kind:file	line:1
+__init__.py	../edu_institution_finance/models/__init__.py	1;"	kind:file	line:1
+__init__.py	../edu_institution_hr/__init__.py	1;"	kind:file	line:1
+__init__.py	../edu_institution_hr/controllers/__init__.py	1;"	kind:file	line:1
+__init__.py	../edu_institution_hr/models/__init__.py	1;"	kind:file	line:1
+__init__.py	../edu_institution_sales/__init__.py	1;"	kind:file	line:1
+__init__.py	../edu_institution_sales/controllers/__init__.py	1;"	kind:file	line:1
+__init__.py	../edu_institution_sales/models/__init__.py	1;"	kind:file	line:1
+__init__.py	../edu_institution_teaching/__init__.py	1;"	kind:file	line:1
+__init__.py	../edu_institution_teaching/controllers/__init__.py	1;"	kind:file	line:1
+__init__.py	../edu_institution_teaching/models/__init__.py	1;"	kind:file	line:1
+__manifest__.py	../edu_institution_erp/__manifest__.py	1;"	kind:file	line:1
+__manifest__.py	../edu_institution_finance/__manifest__.py	1;"	kind:file	line:1
+__manifest__.py	../edu_institution_hr/__manifest__.py	1;"	kind:file	line:1
+__manifest__.py	../edu_institution_sales/__manifest__.py	1;"	kind:file	line:1
+__manifest__.py	../edu_institution_teaching/__manifest__.py	1;"	kind:file	line:1
+_check_birthdate	../edu_institution_sales/models/contact.py	/^    def _check_birthdate(self):$/;"	kind:member	line:26
+_inherits	../edu_institution_sales/models/contact.py	/^    _inherits = {'res.partner': 'partner_id'}$/;"	kind:variable	line:9
+_name	../edu_institution_sales/models/contact.py	/^    _name = 'edu_institution_sales.contact'$/;"	kind:variable	line:8
+_name	../edu_institution_sales/models/market.py	/^    _name = 'edu_institution_sales.market_channel'$/;"	kind:variable	line:15
+_name	../edu_institution_sales/models/market.py	/^    _name = 'edu_institution_sales.op_channel'$/;"	kind:variable	line:6
+_order	../edu_institution_sales/models/contact.py	/^    _order = 'sequence, id'$/;"	kind:variable	line:10
+_sql_constraints	../edu_institution_sales/models/market.py	/^    _sql_constraints = [$/;"	kind:variable	line:10
+address	../edu_institution_sales/models/market.py	/^    address = fields.Char()$/;"	kind:variable	line:27
+api	../edu_institution_finance/models/models.py	/^from odoo import models, fields, api$/;"	kind:namespace	line:3
+api	../edu_institution_hr/models/models.py	/^from odoo import models, fields, api$/;"	kind:namespace	line:3
+api	../edu_institution_sales/models/contact.py	/^from odoo import models, fields, api, _$/;"	kind:namespace	line:3
+api	../edu_institution_sales/models/market.py	/^from odoo import models, fields, api$/;"	kind:namespace	line:3
+api	../edu_institution_sales/models/models.py	/^from odoo import models, fields, api$/;"	kind:namespace	line:3
+api	../edu_institution_teaching/models/models.py	/^from odoo import models, fields, api$/;"	kind:namespace	line:3
+birth_date	../edu_institution_sales/models/contact.py	/^    birth_date = fields.Date('Birth Date')$/;"	kind:variable	line:17
+channel_type	../edu_institution_sales/models/market.py	/^    channel_type = fields.Selection([$/;"	kind:variable	line:17
+contact	../edu_institution_sales/models/__init__.py	/^from . import contact$/;"	kind:namespace	line:4
+contact.py	../edu_institution_sales/models/contact.py	1;"	kind:file	line:1
+contact_parent_name	../edu_institution_sales/models/contact.py	/^    contact_parent_name = fields.Char('Parent Name', size=128)$/;"	kind:variable	line:18
+controllers	../edu_institution_erp/__init__.py	/^from . import controllers$/;"	kind:namespace	line:3
+controllers	../edu_institution_erp/controllers/__init__.py	/^from . import controllers/;"	kind:namespace	line:3
+controllers	../edu_institution_finance/__init__.py	/^from . import controllers$/;"	kind:namespace	line:3
+controllers	../edu_institution_finance/controllers/__init__.py	/^from . import controllers/;"	kind:namespace	line:3
+controllers	../edu_institution_hr/__init__.py	/^from . import controllers$/;"	kind:namespace	line:3
+controllers	../edu_institution_hr/controllers/__init__.py	/^from . import controllers/;"	kind:namespace	line:3
+controllers	../edu_institution_sales/__init__.py	/^from . import controllers$/;"	kind:namespace	line:3
+controllers	../edu_institution_sales/controllers/__init__.py	/^from . import controllers/;"	kind:namespace	line:3
+controllers	../edu_institution_teaching/__init__.py	/^from . import controllers$/;"	kind:namespace	line:3
+controllers	../edu_institution_teaching/controllers/__init__.py	/^from . import controllers/;"	kind:namespace	line:3
+controllers.py	../edu_institution_erp/controllers/controllers.py	1;"	kind:file	line:1
+controllers.py	../edu_institution_finance/controllers/controllers.py	1;"	kind:file	line:1
+controllers.py	../edu_institution_hr/controllers/controllers.py	1;"	kind:file	line:1
+controllers.py	../edu_institution_sales/controllers/controllers.py	1;"	kind:file	line:1
+controllers.py	../edu_institution_teaching/controllers/controllers.py	1;"	kind:file	line:1
+english_name	../edu_institution_sales/models/contact.py	/^    english_name = fields.Char('English Name', size=128)$/;"	kind:variable	line:13
+fee	../edu_institution_sales/models/market.py	/^    fee = fields.Float()$/;"	kind:variable	line:28
+fields	../edu_institution_finance/models/models.py	/^from odoo import models, fields, api$/;"	kind:namespace	line:3
+fields	../edu_institution_hr/models/models.py	/^from odoo import models, fields, api$/;"	kind:namespace	line:3
+fields	../edu_institution_sales/models/contact.py	/^from odoo import models, fields, api, _$/;"	kind:namespace	line:3
+fields	../edu_institution_sales/models/market.py	/^from odoo import models, fields, api$/;"	kind:namespace	line:3
+fields	../edu_institution_sales/models/models.py	/^from odoo import models, fields, api$/;"	kind:namespace	line:3
+fields	../edu_institution_teaching/models/models.py	/^from odoo import models, fields, api$/;"	kind:namespace	line:3
+gender	../edu_institution_sales/models/contact.py	/^    gender = fields.Selection($/;"	kind:variable	line:14
+help	../edu_institution_sales/models/market.py	/^        help="运营渠道")$/;"	kind:variable	line:25
+http	../edu_institution_erp/controllers/controllers.py	/^from odoo import http$/;"	kind:namespace	line:2
+http	../edu_institution_finance/controllers/controllers.py	/^from odoo import http$/;"	kind:namespace	line:2
+http	../edu_institution_hr/controllers/controllers.py	/^from odoo import http$/;"	kind:namespace	line:2
+http	../edu_institution_sales/controllers/controllers.py	/^from odoo import http$/;"	kind:namespace	line:2
+http	../edu_institution_teaching/controllers/controllers.py	/^from odoo import http$/;"	kind:namespace	line:2
+info_source	../edu_institution_sales/models/market.py	/^    info_source = fields.Char()$/;"	kind:variable	line:26
+is_active	../edu_institution_sales/models/market.py	/^    is_active = fields.Boolean() # 是否激活$/;"	kind:variable	line:29
+market	../edu_institution_sales/models/__init__.py	/^from . import market$/;"	kind:namespace	line:5
+market.py	../edu_institution_sales/models/market.py	1;"	kind:file	line:1
+market_channel	../edu_institution_sales/models/market.py	/^class market_channel(models.Model):$/;"	kind:class	line:14
+memo1	../edu_institution_sales/models/contact.py	/^    memo1 =  fields.Text('Memo 1')$/;"	kind:variable	line:21
+memo2	../edu_institution_sales/models/contact.py	/^    memo2 =  fields.Text('Memo 2')$/;"	kind:variable	line:22
+models	../edu_institution_erp/__init__.py	/^from . import models/;"	kind:namespace	line:4
+models	../edu_institution_erp/models/__init__.py	/^from . import models$/;"	kind:namespace	line:3
+models	../edu_institution_finance/__init__.py	/^from . import models/;"	kind:namespace	line:4
+models	../edu_institution_finance/models/__init__.py	/^from . import models/;"	kind:namespace	line:3
+models	../edu_institution_finance/models/models.py	/^from odoo import models, fields, api$/;"	kind:namespace	line:3
+models	../edu_institution_hr/__init__.py	/^from . import models/;"	kind:namespace	line:4
+models	../edu_institution_hr/models/__init__.py	/^from . import models/;"	kind:namespace	line:3
+models	../edu_institution_hr/models/models.py	/^from odoo import models, fields, api$/;"	kind:namespace	line:3
+models	../edu_institution_sales/__init__.py	/^from . import models/;"	kind:namespace	line:4
+models	../edu_institution_sales/models/__init__.py	/^from . import models$/;"	kind:namespace	line:3
+models	../edu_institution_sales/models/contact.py	/^from odoo import models, fields, api, _$/;"	kind:namespace	line:3
+models	../edu_institution_sales/models/market.py	/^from odoo import models, fields, api$/;"	kind:namespace	line:3
+models	../edu_institution_sales/models/models.py	/^from odoo import models, fields, api$/;"	kind:namespace	line:3
+models	../edu_institution_teaching/__init__.py	/^from . import models/;"	kind:namespace	line:4
+models	../edu_institution_teaching/models/__init__.py	/^from . import models/;"	kind:namespace	line:3
+models	../edu_institution_teaching/models/models.py	/^from odoo import models, fields, api$/;"	kind:namespace	line:3
+models.py	../edu_institution_erp/models/models.py	1;"	kind:file	line:1
+models.py	../edu_institution_finance/models/models.py	1;"	kind:file	line:1
+models.py	../edu_institution_hr/models/models.py	1;"	kind:file	line:1
+models.py	../edu_institution_sales/models/models.py	1;"	kind:file	line:1
+models.py	../edu_institution_teaching/models/models.py	1;"	kind:file	line:1
+name	../edu_institution_sales/models/market.py	/^    name = fields.Char('运营渠道', translate=True, required=True)$/;"	kind:variable	line:8
+note	../edu_institution_sales/models/market.py	/^    note = fields.Text()$/;"	kind:variable	line:30
+op_channel	../edu_institution_sales/models/market.py	/^class op_channel(models.Model):$/;"	kind:class	line:5
+op_channel_id	../edu_institution_sales/models/market.py	/^    op_channel_id = fields.Many2one($/;"	kind:variable	line:22
+other_mobile	../edu_institution_sales/models/contact.py	/^    other_mobile =  fields.Char('Other Mobile', size=128)$/;"	kind:variable	line:19
+school	../edu_institution_sales/models/contact.py	/^    school =  fields.Char('Home Number', size=128)$/;"	kind:variable	line:20
+sequence	../edu_institution_sales/models/contact.py	/^    sequence = fields.Integer(help="Determine the display order", default=10, string="自动生成")$/;"	kind:variable	line:12

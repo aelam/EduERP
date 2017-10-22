@@ -1,0 +1,58 @@
+<odoo>
+    <data noupdate="0">
+
+        <!-- Resource: product.uom.categ -->
+        <record id="cat_course_product" model="product.category">
+            <field name="parent_id" ref="product.product_category_all"/>
+            <field name="name">Course</field>
+        </record>
+
+        <!-- <record id="product_product_fixed_cost" model="product.product">
+            <field name="name">Expenses</field>
+            <field name="list_price">0.0</field>
+            <field name="standard_price">1.0</field>
+            <field name="type">service</field>
+            <field name="default_code">EXP</field>
+            <field name="categ_id" ref="edu_institution_teaching.cat_course_product"/>
+            <field name="can_be_expensed" eval="True"/>
+        </record> -->
+
+        <!-- <record id="course_PreK" model="product.product">
+            <field name="list_price">10000</field>
+            <field name="standard_price">10000</field>
+            <field name="type">service</field>
+            <field name="name">PreK</field>
+            <field name="default_code">PreK</field>
+            <field name="uom_id" ref="product.product_uom_km"/>
+            <field name="uom_po_id" ref="product.product_uom_km"/>
+            <field name="categ_id" ref="cat_course_product"/>
+            <field name="can_be_expensed" eval="True" />
+        </record> -->
+
+        <!-- <record id="course_Level1" model="product.product">
+            <field name="list_price">10000</field>
+            <field name="standard_price">10000</field>
+            <field name="type">service</field>
+            <field name="name">Level 1</field>
+            <field name="default_code">Level 1</field>
+            <field name="uom_id" ref="product.product_uom_km"/>
+            <field name="uom_po_id" ref="product.product_uom_km"/>
+            <field name="categ_id" ref="hr_expense.cat_expense"/>
+            <field name="can_be_expensed" eval="True" />
+        </record> -->
+
+        <!-- <record id="course_Level2" model="product.product">
+            <field name="list_price">10000</field>
+            <field name="standard_price">10000</field>
+            <field name="type">service</field>
+            <field name="name">Level 2</field>
+            <field name="default_code">Level 2</field>
+            <field name="uom_id" ref="product.product_uom_km"/>
+            <field name="uom_po_id" ref="product.product_uom_km"/>
+            <field name="categ_id" ref="hr_expense.cat_expense"/>
+            <field name="can_be_expensed" eval="True" />
+            <field name="image" type="base64" file="hr_expense/static/img/car_travel-image.jpg"/>
+        </record> -->
+
+    </data>
+</odoo>

@@ -22,14 +22,30 @@
     # any module necessary for this one to work correctly
     'depends': ['edu_institution_hr'],
 
+    'security': [
+        'security/ir_rule.xml',
+        'security/ir.model.access.csv',
+        'security/course_product_security.xml',
+    ],
+
     # always loaded
     'data': [
         # 'security/ir.model.access.csv',
         'views/views.xml',
         'views/templates.xml',
+        'views/course_product_view.xml',
+        'views/menu_items.xml',
+
+        'data/course_products.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
-        'demo/demo.xml',
+        # 'demo/demo.xml',
+        
     ],
+
+    'installable': True,
+    'application': True,
+    'auto_install': False,
+
 }

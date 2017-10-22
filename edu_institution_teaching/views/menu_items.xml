@@ -1,0 +1,30 @@
+<odoo>
+  <data>
+
+    <!-- Top menu item -->
+    <menuitem name="教务管理" id="menu_edu_institution_teaching" />
+    <!-- menu categories -->
+
+    <!-- 二级菜单: 业务 -->
+    <!-- <menuitem name="运营渠道管理" id="menu_edu_institution_teaching_op_channel" parent="menu_edu_institution_teaching" -->
+    <!-- action="act_open_market_view"/> -->
+    <menuitem name="课程管理" id="menu_edu_institution_teaching_course_products" parent="menu_edu_institution_teaching"
+    action="act_open_course_product_view"/>
+    <!-- <menuitem name="上课时间管理" id="menu_edu_institution_teaching_time_slots" parent="menu_edu_institution_teaching"
+    action="act_open_class_time_view"/>
+    <menuitem name="教室管理" id="menu_edu_institution_teaching_classroom_manage" parent="menu_edu_institution_teaching"
+    action="act_open_classroom_view"/>
+    <menuitem name="开班计划" id="menu_edu_institution_teaching_new_class" parent="menu_edu_institution_teaching"
+    action="act_open_new_class_plan_view"/>    
+    <menuitem name="分班管理" id="menu_edu_institution_teaching_class_assign" parent="menu_edu_institution_teaching"
+    action="act_open_class_assign_view"/>
+    <menuitem name="转班单" id="menu_edu_institution_teaching_class_transfer" parent="menu_edu_institution_teaching"
+    action="act_open_class_transfer_view"/>    
+    <menuitem name="冻结单" id="menu_edu_institution_teaching_teacher_class_frozen" parent="menu_edu_institution_teaching"
+    action="act_open_class_transfer_frozen_view"/>    
+    <menuitem name="Follow Up操作平台" id="menu_edu_institution_teaching_follow_up" parent="menu_edu_institution_teaching"
+    action="act_open_follow_up_view"/>    
+    <menuitem name="Demo计划" id="menu_edu_institution_teaching_demo" parent="menu_edu_institution_teaching"
+    action="act_open_class_demo_view"/>     -->
+  </data>
+</odoo>

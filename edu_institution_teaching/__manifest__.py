@@ -34,6 +34,7 @@
         'views/views.xml',
         'views/templates.xml',
         'views/course_product_view.xml',
+        'views/time_slot_view.xml',
         'views/menu_items.xml',
 
         'data/course_products.xml',

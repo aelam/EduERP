@@ -3,8 +3,7 @@
 from odoo import models, fields, api
 
 class ei_teaching_time_slot(models.Model):
-    _name = 'ei_teaching.time_slot'
-    _inherit = ['ir.model']
+    _name = 'edu_institution_teaching.time_slot'
     _description = "上课时间设置"
     _order = 'hour_from'
 

@@ -10,8 +10,9 @@
     <!-- action="act_open_market_view"/> -->
     <menuitem name="课程管理" id="menu_edu_institution_teaching_course_products" parent="menu_edu_institution_teaching"
     action="act_open_course_product_view"/>
-    <!-- <menuitem name="上课时间管理" id="menu_edu_institution_teaching_time_slots" parent="menu_edu_institution_teaching"
-    action="act_open_class_time_view"/>
+    <menuitem name="上课时间段管理" id="menu_edu_institution_teaching_time_slots" parent="menu_edu_institution_teaching"
+    action="action_time_slot_view"/>
+    <!-- 
     <menuitem name="教室管理" id="menu_edu_institution_teaching_classroom_manage" parent="menu_edu_institution_teaching"
     action="act_open_classroom_view"/>
     <menuitem name="开班计划" id="menu_edu_institution_teaching_new_class" parent="menu_edu_institution_teaching"

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <data>
+
+    <record id="act_open_demo_class_view" model="ir.actions.act_window">
+      <field name="name">Demo Class</field>
+      <field name="res_model">ei_teaching.demo_class</field>
+      <field name="view_type">form</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+  </data>
+</odoo>

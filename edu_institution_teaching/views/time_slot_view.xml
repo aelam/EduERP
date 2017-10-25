@@ -3,8 +3,8 @@
   <data>
     <!-- view_time_slot_tree -->
     <record id="view_time_slot_tree" model="ir.ui.view">
-      <field name="name">edu_institution_teaching.time_slot.tree</field>
-      <field name="model">edu_institution_teaching.time_slot</field>
+      <field name="name">ei_teaching.time_slot.tree</field>
+      <field name="model">ei_teaching.time_slot</field>
       <field name="priority" eval="8" />
       <field name="mode">primary</field>
       <field name="arch" type="xml">
@@ -16,12 +16,12 @@
       </field>
     </record>
     <!-- view_time_slot_form -->
-    <!-- <record id="view_time_slot_form" model="ir.ui.view"><field name="name">edu_institution_teaching.time_slot.form</field><field name="model">edu_institution_teaching.time_slot</field><field name="priority" eval="8" /><field name="arch" type="xml"><form string="time_slot"><sheet><field name="hour_from" /><field name="hour_to" /></sheet></form></field></record> -->
+    <!-- <record id="view_time_slot_form" model="ir.ui.view"><field name="name">ei_teaching.time_slot.form</field><field name="model">ei_teaching.time_slot</field><field name="priority" eval="8" /><field name="arch" type="xml"><form string="time_slot"><sheet><field name="hour_from" /><field name="hour_to" /></sheet></form></field></record> -->
     <!-- actions opening views on models -->
     <!-- 视图动作 -->
     <record model="ir.actions.act_window" id="act_open_time_slot_view">
       <field name="name">信息录入</field>
-      <field name="res_model">edu_institution_teaching.time_slot</field>
+      <field name="res_model">ei_teaching.time_slot</field>
       <!-- <field name="type">ir.actions.act_window</field> -->
       <field name="view_type">form</field>
       <field name="view_mode">tree,form</field>

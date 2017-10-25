@@ -20,7 +20,7 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['edu_institution_hr'],
+    'depends': ['hr', 'edu_institution_hr'],
 
     'security': [
         'security/ir_rule.xml',
@@ -35,6 +35,7 @@
         'views/templates.xml',
         'views/course_product_view.xml',
         'views/time_slot_view.xml',
+        'views/demo_class_view.xml',
         'views/menu_items.xml',
 
         'data/course_products.xml',

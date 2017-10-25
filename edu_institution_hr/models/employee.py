@@ -3,6 +3,7 @@ from odoo import models, api
 
 class EIEmployee(models.Model):
     _inherit = 'hr.employee'
+    _name = 'ei_hr.employee'
 
     @api.onchange('user_id')
     def onchange_user(self):

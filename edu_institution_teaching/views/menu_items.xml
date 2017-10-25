@@ -25,6 +25,6 @@
     <menuitem name="Follow Up操作平台" id="menu_edu_institution_teaching_follow_up" parent="menu_edu_institution_teaching"
     action="act_open_time_slot_view"/>
     <menuitem name="Demo计划" id="menu_edu_institution_teaching_demo" parent="menu_edu_institution_teaching"
-    action="act_open_time_slot_view"/>
+    action="act_open_demo_class_view"/>
   </data>
 </odoo>
